@@ -1,0 +1,136 @@
+body {
+  background-color: lightgray;
+font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* GLOBAL STYLE */
+
+.flex{
+    display: flex;
+}
+
+.fd-c{
+    flex-direction: column;
+}
+.ai-c{
+    align-items: center;
+}
+
+.ai-l{
+    align-items: left;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+/* END GLOBAL STYLE */
+
+.word {
+  color: white;
+  background-color: #000;
+  width: 10px;
+  padding: 3px 5px;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 40px;
+  min-width: 100%;
+  flex: 1;
+
+}
+
+.left-container{
+    gap: 20px;
+}
+.right-container{
+    gap: 20px;
+}
+.same-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.same-content{
+    padding: 10px 20px;
+    height: max-content;
+    gap: 20px;
+
+}
+
+.same-content>p{
+    font-size: 16px;
+}
+
+.btn-container{
+    width: 100%;
+}
+.button{
+    width: 140px;
+    height: 50px;
+    border: 1px solid rgb(94, 90, 90);
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    gap: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(150, 146, 146, 0.418);
+}
+.comment{
+    gap: 10px;
+    font-size: 14px;
+}
+.comment>p:last-child{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+.post-container{
+    background-color: white;
+    padding: 20px;
+}
+.post-header{
+    width: 100%;
+    height: 20px;
+    padding: 5px 10px 20px 5px;
+}
+.post{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 50px;
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
